@@ -1,3 +1,5 @@
+# N741 - ggplot2 package and the Grammar of Graphics
+
 -   R Code for exercise:
     <https://raw.githubusercontent.com/melindahiggins2000/N741_ggplot_grammarGraphics/main/ggplot2_penguinExamples.R>
 -   R packages used:
@@ -21,8 +23,6 @@
     library(palmerpenguins)
     library(ggplot2)
 
-    ## Warning: package 'ggplot2' was built under R version 4.1.1
-
     # Make a scatterplot
     ggplot(penguins) + 
       aes(x=bill_length_mm, 
@@ -33,8 +33,6 @@
       ylab("Bill Depth (mm)") +
       ggtitle("Penguins Bill Dimensions") +
       theme_dark()
-
-    ## Warning: Removed 2 rows containing missing values (geom_point).
 
 ![](README_files/figure-markdown_strict/unnamed-chunk-1-1.png)
 
@@ -56,10 +54,6 @@
       geom_density(alpha=.2, 
                    fill="#FF6666") +
       facet_wrap(vars(species))
-
-    ## Warning: Removed 2 rows containing non-finite values (stat_bin).
-
-    ## Warning: Removed 2 rows containing non-finite values (stat_density).
 
 ![](README_files/figure-markdown_strict/unnamed-chunk-2-1.png)
 
@@ -92,13 +86,5 @@
 
     # arrange plots as you like
     (p1 | p2) / p3
-
-    ## Warning: Removed 2 rows containing missing values (geom_point).
-
-    ## Warning: Removed 2 rows containing non-finite values (stat_boxplot).
-
-    ## Warning: Removed 2 rows containing non-finite values (stat_bin).
-
-    ## Warning: Removed 2 rows containing non-finite values (stat_density).
 
 ![](README_files/figure-markdown_strict/unnamed-chunk-3-1.png)

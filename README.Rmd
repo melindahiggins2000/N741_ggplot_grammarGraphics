@@ -5,6 +5,15 @@ date: "1/24/2022"
 output: md_document
 ---
 
+# N741 - ggplot2 package and the Grammar of Graphics
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(error = FALSE)
+```
+
 * R Code for exercise: [https://raw.githubusercontent.com/melindahiggins2000/N741_ggplot_grammarGraphics/main/ggplot2_penguinExamples.R](https://raw.githubusercontent.com/melindahiggins2000/N741_ggplot_grammarGraphics/main/ggplot2_penguinExamples.R)
 * R packages used:
     - `ggplot2`
