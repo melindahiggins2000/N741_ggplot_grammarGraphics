@@ -1,6 +1,6 @@
 # N741 - ggplot2 package and the "Grammar of Graphics"
 
-* R Code for exercise: []()
+* R Code for exercise: [https://raw.githubusercontent.com/melindahiggins2000/N741_ggplot_grammarGraphics/main/ggplot2_penguinExamples.R](https://raw.githubusercontent.com/melindahiggins2000/N741_ggplot_grammarGraphics/main/ggplot2_penguinExamples.R)
 * R packages used:
     - `ggplot2`
         * [https://cran.r-project.org/web/packages/ggplot2/index.html](https://cran.r-project.org/web/packages/ggplot2/index.html)
